@@ -16,6 +16,11 @@ server.get('/hobbits', (req, res) => {
     id: 2,
     name: 'Frodo Baggins',
   },
+  {
+    id: 3,
+    name: 'Test Hobbit',
+  },
+  
 ];
 res.status(200).json(hobbits);
 })
